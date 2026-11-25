@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="lab_loseva" type="mission" name="mission" output="screen">
+    <rosparam command="load" file="$(find lab_loseva)/config/mission.yaml"/>
+  </node>
+</launch>
